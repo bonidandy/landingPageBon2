@@ -161,11 +161,21 @@
 .content4 {
   display: flex;
   align-items: center;
+  justify-items: center;
   flex-direction: column;
   background-color: red;
   height: 200vh;
   width: 100%;
 }
+
+.containerBox4{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  gap: 2rem;
+}
+
 
 .name_Card {
   font-weight: bold;
@@ -411,13 +421,12 @@
     line-height: 30px;
   }
 
-  .containerBox {
-    /* display: flex; */
+  .containerBox4 {
+    background-color: greenyellow;
+    display: flex;
     flex-direction: row;
-    align-items: center;
     gap: 2rem;
-    padding: 0rem 2rem;
-    width: 100%;
+    width: 90%;
     max-width: 1200px;
     /* border: magenta 2px solid; */
   }
