@@ -43,7 +43,9 @@
 
 .img_boni {
   max-width: 60%;
-  padding-top: 3rem;
+  margin-top: 1rem;
+  /* padding-top: 3rem; */
+  border-radius: 5px;
 }
 
 .paragraph2 {
@@ -119,7 +121,7 @@
 
 .content3 {
   width: 100%;
-  height: 100vh;
+  height: 115vh;
   background-color: #E6EBE4;
   display: flex;
   align-items: center;
@@ -136,11 +138,14 @@
 .photo {
   display: flex;
   justify-content: center;
+  
 }
 
 .img_boni2 {
-  max-width: 90%;
-  padding-top: 1.5rem;
+  width: 100%;
+  margin-top: 1.5rem;
+  border-radius: 10px;
+  background-color: red;
 }
 
 .main_Text {
@@ -163,17 +168,18 @@
   align-items: center;
   justify-items: center;
   flex-direction: column;
-  background-color: red;
+  /* background-color: red; */
   height: 200vh;
   width: 100%;
 }
 
-.containerBox4{
+.containerBox4 {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 90%;
   gap: 2rem;
+  /* background-color: blue; */
 }
 
 
@@ -205,7 +211,7 @@
   align-items: center;
   flex-direction: column;
   gap: 2rem;
-  width: 105%;
+  width: 100%;
   /* Atau max-width: 500px; */
   max-width: 600px;
   /* Tambah ini - batasi lebar box */
@@ -259,10 +265,19 @@
   background-color: #E1F1F1;
   width: 100%;
   height: 100vh;
-  padding-left: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.containerBox5 {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  /* background-color: aquamarine; */
+  flex-direction: column;
+  word-break: break-word;
+  overflow-wrap: break-word;
 }
 
 .containerText {
@@ -299,19 +314,29 @@
 }
 
 
-.imgBoni2 {
-  padding-top: 40px;
+.imgBoni3 {
+  margin-top: 40px;
   max-width: 60%;
   display: flex;
   align-items: center;
   justify-content: center;
+  border-radius: 5px;
 }
 
 .content6 {
   width: 100%;
   height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
+.containerBox6{
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  align-items: center;
+}
 
 
 /* Desktop */
@@ -321,13 +346,11 @@
     padding: 2rem;
   }
 
-
+  /* content1 */
   .content1 {
-    padding-left: 0px;
     height: 100vh;
     width: 100%;
     display: flex;
-    align-items: center;
     justify-content: center;
     flex-direction: row;
   }
@@ -343,7 +366,8 @@
     margin-top: 10rem;
     /* margin-right: 12rem; */
     max-width: 25%;
-    padding-top: 3rem;
+    margin-top: 20rem;
+    border-radius: 5px;
   }
 
   .paragraph1 {
@@ -352,8 +376,12 @@
 
   .wrap1 {
     margin-left: 0px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
   }
 
+  /* content2 */
   .i_work {
     padding-top: 3rem;
   }
@@ -373,14 +401,7 @@
     flex-direction: row;
   }
 
-
-  /* .photo {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-  } */
-
-
+  /* content3 */
   .content3 {
     display: flex;
     justify-content: center;
@@ -396,14 +417,19 @@
     padding: 0;
   }
 
-
-
   .photo {
     flex: 1;
     width: 50%;
     display: flex;
     justify-content: flex-start;
   }
+
+  .img_boni2 {
+  width: 90%;
+  margin-top: 1.5rem;
+  border-radius: 10px;
+  background-color: red;
+}
 
   .main_Text {
     flex: 1;
@@ -421,19 +447,21 @@
     line-height: 30px;
   }
 
+  /* content4 */
+
+  .content4 {
+    height: 100vh;
+    width: 100%;
+  }
+
   .containerBox4 {
-    background-color: greenyellow;
+    /* background-color: greenyellow; */
     display: flex;
     flex-direction: row;
     gap: 2rem;
     width: 90%;
     max-width: 1200px;
     /* border: magenta 2px solid; */
-  }
-
-  .content4 {
-    height: 100vh;
-    width: 100%;
   }
 
   .box1,
@@ -461,18 +489,35 @@
     background-color: #E1F1F1;
   }
 
-
+/* content5 */
   .content5 {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     height: 75vh;
+    width: 100%;
   }
 
-  .imgBoni2 {
+  .containerBox5 {
+    display: flex;
+    flex-direction: row;
+    /* justify-content:space-between; */
+    align-items: center;
+    width: 90%;
+    /* background-color: red; */
+    gap: 2rem;
+  }
+
+  .containerText {
+    flex: 1;
+  }
+
+  .imgBoni3 {
+    overflow: hidden;
     margin-top: 5rem;
-    margin-right: 12rem;
     max-width: 25%;
-    padding-top: 3rem;
+    border-radius: 5px;
+    background-color: red;
   }
 
   .iGet {
