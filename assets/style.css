@@ -186,7 +186,7 @@
 .name_Card {
   font-weight: bold;
   font-size: large;
-  padding-top: 4rem;
+  /* padding-top: 4rem; */
 }
 
 .containerBox {
