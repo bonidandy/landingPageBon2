@@ -42,8 +42,8 @@
 }
 
 .img_boni {
-  max-width: 85%;
-  margin-top: 8rem;
+  max-width: 70%;
+  margin-top: 3rem;
   /* padding-top: 3rem; */
   border-radius: 5px;
 }
@@ -121,7 +121,7 @@
 
 .content3 {
   width: 100%;
-  height: 90vh;
+  height: 110vh;
   background-color: #E6EBE4;
   display: flex;
   align-items: center;
@@ -167,7 +167,7 @@
   justify-items: center;
   flex-direction: column;
   /* background-color: red; */
-  height: 160vh;
+  height: 140vh;
   width: 100%;
 }
 
@@ -228,7 +228,7 @@
   background-color: transparent;
   padding: 1rem 2rem;
   width: 100%;
-  
+
 }
 
 .box button:hover {
@@ -331,17 +331,37 @@
   flex-direction: column;
 }
 
-.containerBox6{
+.containerBox6 {
   display: flex;
   flex-direction: row;
   width: 90%;
   justify-content: center;
 }
 
-.whatPeople{
-  padding-top: 12rem;
+.whatPeople {
+  padding-top: 20rem;
 }
 
+@media (min-width: 640px) {
+  .children {
+    background-color: aquamarine;
+    height: 100vh;
+    width: 100%;
+  }
+
+  .img_boni{
+    max-width: 70%;
+    margin-top: 5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .children {
+    background-color: burlywood;
+    height: 100vh;
+    width: 100%;
+  }
+}
 
 /* Desktop */
 @media (min-width: 1024px) {
@@ -429,11 +449,11 @@
   }
 
   .img_boni2 {
-  width: 90%;
-  margin-top: 1.5rem;
-  border-radius: 10px;
-  background-color: red;
-}
+    width: 90%;
+    margin-top: 1.5rem;
+    border-radius: 10px;
+    background-color: red;
+  }
 
   .main_Text {
     flex: 1;
@@ -493,7 +513,7 @@
     background-color: #E1F1F1;
   }
 
-/* content5 */
+  /* content5 */
   .content5 {
     display: flex;
     flex-direction: row;
