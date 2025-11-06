@@ -354,21 +354,21 @@
   padding-top: 10rem;
 }
 
-@media (min-width: 490px){
+@media (min-width: 375px){
   .children{
     background-color: red;
   }
 
   .img_boni{
-    max-width: 55%;
+    max-width: 70%;
   }
 
   .whatPeople{
-    padding-top: 20rem;
+    padding-top: 10rem;
   }
 
   .content3{
-    height: 120vh;
+    height: 100vh;
   }
 }
 
