@@ -1,0 +1,289 @@
+@media (min-width: 490px) {
+  .children {
+    background-color: red;
+  }
+
+  .img_boni {
+    max-width: 55%;
+  }
+
+  .content3 {
+    height: 120vh;
+  }
+
+  .content5 {
+    background-color: red;
+  }
+
+  .imgBoni3 {
+    max-width: 50%;
+  }
+
+  .whatPeople {
+    padding-top: 15rem;
+  }
+}
+
+@media (min-width: 640px) {
+  .children {
+    background-color: aquamarine;
+    height: 100vh;
+    width: 100%;
+  }
+
+  .img_boni {
+    max-width: 45%;
+    margin-top: 4rem;
+  }
+
+  .content3 {
+    height: 135vh;
+  }
+
+  .content5 {
+    background-color: chartreuse;
+  }
+
+  .imgBoni3 {
+    max-width: 40%;
+  }
+
+  .whatPeople {
+    padding-top: 13rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .children {
+    background-color: burlywood;
+    height: 100vh;
+    width: 100%;
+  }
+
+  .img_boni {
+    max-width: 35%;
+  }
+
+  .content3 {
+    height: 160vh;
+  }
+
+  .content5 {
+    background-color: darkblue;
+  }
+
+  .whatPeople {
+    padding-top: 42rem;
+  }
+
+  .containerChildBox4 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .box3 {
+    grid-column: 1/3;
+    justify-self: center;
+  }
+
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1200px;
+    padding: 2rem;
+  }
+
+
+  /* content1 */
+  .content1 {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+
+  .children {
+    background-color: #FEF3DF;
+  }
+
+  .containerBox1 {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+  }
+
+  .img_boni {
+    margin-top: 10rem;
+    max-width: 25%;
+    margin-top: 20rem;
+    border-radius: 5px;
+  }
+
+  .paragraph1 {
+    font-size: 3rem;
+  }
+
+  .wrap1 {
+    margin-left: 0px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+  }
+
+  /* content2 */
+  .i_work {
+    padding-top: 3rem;
+  }
+
+  .all-logo {
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 50px;
+    gap: 30px;
+  }
+
+  .logo1 {
+    flex-direction: row;
+  }
+
+  .logo2 {
+    flex-direction: row;
+  }
+
+  /* content3 */
+  .content3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    /* padding-left: 8px; */
+    width: 100%;
+    height: 100vh;
+  }
+
+  .containerBox3 {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    padding: 0;
+  }
+
+  .photo {
+    flex: 1;
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .img_boni2 {
+    width: 90%;
+    margin-top: 1.5rem;
+    border-radius: 10px;
+    background-color: red;
+  }
+
+  .main_Text {
+    flex: 1;
+    display: flex;
+    align-items: center;
+  }
+
+  .name_Boni {
+    font-weight: bold;
+    font-size: xx-large;
+  }
+
+  .child_Text {
+    font-size: medium;
+    line-height: 30px;
+  }
+
+
+
+  /* content4 */
+
+  .content4 {
+    height: 100vh;
+    width: 100%;
+  }
+
+  .containerChildBox4 {
+    /* background-color: greenyellow; */
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    width: 90%;
+    max-width: 1200px;
+    /* height: 70%; */
+    /* border: magenta 2px solid; */
+  }
+
+  .box1,
+  .box2,
+  .box3 {
+    background-color: #FEF3DF;
+    padding: 6rem 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    width: 90%;
+    max-width: 600px;
+  }
+
+  .box2 {
+    background-color: #E6EBE4;
+  }
+
+  .box3 {
+    background-color: #E1F1F1;
+  }
+
+  /* content5 */
+  .content5 {
+    background-color: #E1F1F1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 75vh;
+    width: 100%;
+  }
+
+  .containerBox5 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 90%;
+    gap: 2rem;
+  }
+
+  .containerText {
+    flex: 1;
+  }
+
+  .imgBoni3 {
+    overflow: hidden;
+    margin-top: 5rem;
+    max-width: 25%;
+    border-radius: 5px;
+    background-color: red;
+  }
+
+  .iGet {
+    font-size: 30px;
+  }
+
+  .whatPeople {
+    padding-top: 5rem;
+  }
+
+  .containerProfile6 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 1.3rem;
+  }
+}

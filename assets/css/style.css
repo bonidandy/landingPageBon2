@@ -1,0 +1,421 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: inter;
+}
+
+:root {
+  --buttonColor: #2F314B;
+  --sectionColor1: #FEF3DF;
+  --sectionColor3: #E6EBE4;
+  --mainColor:#303249;
+  --secondColor:#5A5B6B;
+}
+
+.children {
+  background-color: var(--sectionColor1);
+  height: 100vh;
+  width: 100%;
+}
+
+.content1 {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.containerBox1 {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  align-items: center;
+}
+
+.paragraph1 {
+  font-weight: bolder;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  padding-top: 5rem;
+  color: var(--mainColor);
+}
+
+.img_boni {
+  max-width: 70%;
+  margin-top: 3rem;
+  border-radius: 5px;
+}
+
+.paragraph2 {
+  padding-top: 1rem;
+  line-height: 1.5;
+}
+
+.perform-better {
+  text-decoration: underline;
+  text-decoration-color: #DECAA5;
+}
+
+.button1 {
+  margin-top: 2rem;
+  background-color: var(--buttonColor);
+  color: white;
+  padding: 1rem 1rem;
+  cursor: pointer;
+  display: flex;
+  align-self: flex-start;
+  
+}
+
+.button1:hover{
+  background-color: transparent;
+  color: var(--mainColor);
+  border-color: 2px #C8CDC5 solid;
+}
+
+.content2 {
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.may{
+  color: var(--mainColor);
+}
+
+.i_work {
+  font-size: 1rem;
+  font-weight: bolder;
+  word-spacing: 2px;
+  color: var(--mainColor);
+}
+
+.all-logo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.logo1 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.logo1 img {
+  max-width: 50px;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.logo2 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.logo2 img {
+  max-width: 50px;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.content3 {
+  width: 100%;
+  height: 110vh;
+  background-color: var(--sectionColor3);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.containerBox3 {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+
+.photo {
+  display: flex;
+  justify-content: center;
+}
+
+.img_boni2 {
+  width: 100%;
+  margin-top: 1.5rem;
+  border-radius: 10px;
+  background-color: red;
+}
+
+.main_Text {
+  padding-top: 3rem;
+}
+
+.child_Text {
+  width: 100%;
+  font-size: small;
+}
+
+.child_Text p{
+  color: var(--mainColor);
+}
+
+.child_Text b{
+  color: black;
+}
+
+.name_Boni {
+  font-weight: bold;
+  font-size: larger;
+  color: var(--mainColor);
+}
+
+.content4 {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  flex-direction: column;
+  height: 170vh;
+  width: 100%;
+}
+
+.containerChildBox4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  gap: 2rem;
+}
+
+.containerBox4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  gap: 2rem;
+}
+
+
+.name_Card {
+  font-weight: bold;
+  font-size: large;
+  color: var(--mainColor);
+}
+
+.containerBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding: 0rem 2rem;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.box1,
+.box2,
+.box3 {
+  background-color: #FEF3DF;
+  padding: 2rem 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+  width: 100%;
+  max-width: 600px;
+}
+
+.icon {
+  font-size: 30px;
+}
+
+.box1 button,
+.box2 button,
+.box3 button {
+  font-weight: bold;
+  cursor: pointer;
+  border: 2px #C8CDC5 solid;
+  background-color: transparent;
+  padding: 1rem 2rem;
+  width: 100%;
+  color: var(--mainColor);
+}
+
+.box button:hover {
+  background-color: var(--buttonColor);
+  color: white;
+  border-color: var(--buttonColor);
+}
+
+.box2 {
+  background-color: #E6EBE4;
+}
+
+.box3 {
+  background-color: #E1F1F1;
+}
+
+
+.childrenBox1 {
+  width: 100%;
+  word-wrap: break-word;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.judul {
+  font-weight: bold;
+  color: var(--mainColor);
+}
+
+.content5 {
+  background-color: #E1F1F1;
+  width: 100%;
+  height: 65vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.containerBox5 {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  word-break: break-word;
+  overflow-wrap: break-word;
+}
+
+.containerText {
+  padding-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.workWith {
+  color: #ABBBBC;
+  font-weight: bold;
+}
+
+.iGet {
+  font-weight: bold;
+  color: var(--mainColor);
+}
+
+.letsTalk {
+  font-size: small;
+}
+
+.getTouch {
+  background-color: var(--buttonColor);
+  color: white;
+  padding: 0.7rem 1rem;
+  margin-top: 20px;
+  cursor: pointer;
+  width: 40%;
+  display: flex;
+  align-self: flex-start;
+  justify-content: center;
+}
+
+.getTouch:hover{
+  background-color: transparent;
+  color: var(--mainColor);
+  border-color: 2px #C8CDC5 solid;
+}
+
+.imgBoni3 {
+  margin-top: 40px;
+  max-width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.content6 {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.containerBox6 {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.whatPeople {
+  padding-top: 13rem;
+  font-weight: bolder;
+  font-size: 1.2rem;
+  color: var(--mainColor);
+}
+
+.containerBox6 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.containerProfile6 {
+  display: grid;
+  grid-template-rows: repeat(6, 1fr);
+  grid-template-columns: auto;
+  gap: 1.3rem;
+  padding-bottom: 20px;
+}
+
+
+.boxName1 {
+  border: 1px #C8CDC5 solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;
+  padding-bottom: 1rem;
+  color: var(--mainColor);
+  cursor: pointer;
+}
+
+.imgProfile {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.content7 {
+  height: 80vh;
+  width: 100%;
+  background-color: red;
+  /* margin-top: 1280px; */
+}
+
+.containerBox7 {
+  display: flex;
+  justify-content: center;
+}
+
+@media (min-width:1280) {}
